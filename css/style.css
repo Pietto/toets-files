@@ -24,6 +24,7 @@ body{
 	grid-row: 2;
 	width: 100%;
 	grid-column: 1/6;
+	height: 50px;
 }
 #menu>ul{
 	margin: 0px;
@@ -31,19 +32,41 @@ body{
 }
 #menu>ul>li{
 	display: inline-block;
-	text-decoration: none;
-	background-color: rgba(81,28,116,1);
 	color: rgba(145,199,62,1);
-	margin-right: 80px;
-	margin-left: 80px;
+	margin-right: 75px;
+	margin-left: 75px;
 	font-size: 25px;
-	padding: 10px;
-	transition: 0.2s;
 }
-#menu>ul>li:hover{
+a{
+	background-color: rgba(81,28,116,1);
+	color: white;
+ 	text-decoration: none;
+ 	padding: 11px;
+ 	padding-bottom: 12px;
+ 	position: relative;
+ 	top: 11px;
+ 	height: 50px;
+ 	transition: 0.2s;
+}
+a:hover{
 	background-color: white;
 	color: rgba(81,28,116,1);
 	transition: 0.2s;
+}
+#menuitem1{
+	grid-column: 1/2;
+}
+#menuitem2{
+	grid-column: 2/3;
+}
+#menuitem3{
+	grid-column: 3/4;
+}
+#menuitem4{
+	grid-column: 4/5;
+}
+#menuitem5{
+	grid-column: 5/6;
 }
 #content,#bamischijf,#bitterbal,#berenklauw,#frikandelspeciaal,#gehaktbal{
 	grid-row: 3;
@@ -118,3 +141,6 @@ body{
 	margin: 5px;
 	font-size: 20px;
 }
+
+
+/* <---Afdeling Snacks---> */
